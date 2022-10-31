@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+  
+}
+
+.weather_Img_Data{
+  display:flex;
+  
+  
+}
+.info{
+  padding: 1em;
+}
+button{
+  margin: 1em;
+}
+.card{
+  background-color: rgb(157, 199, 43);
+  padding: 2em 4em;
+  border-radius: 10px;
+  
+}
