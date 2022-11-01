@@ -16,7 +16,8 @@ const Weather = () => {
         <h1>Weather App</h1>
         <h2>Ciudad {weather.name}, {weather.sys?.country}</h2>
         <div className="weather_Img_Data">
-          <img src={weather.weather?.[0].icon} width='100px' />
+          <img src="http://openweathermap.org/img/wn/04n@2x.png" alt="" />
+          {/*<img src={weather.weather?.[0].icon} width='100px' />*/}
           <div className="info">
             <p>"{weather.weather?.[0].description}"</p>
 
